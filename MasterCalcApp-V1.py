@@ -41,7 +41,7 @@ def calculate():
 
 label_result = Label(root, width=25, height=2, text="", font=('Arial', 30,), bg="#F5F5DC")
 label_result.pack()
-# Create the button functions:
+# Create the buttons functions:
 
 Button(root, text="C", width=5, height=1, font=("arial", 30, "bold"), bd=1, fg="#fff", bg="#e61736", command=lambda: clear()).place(x=10, y=100)    #clear the display
 Button(root, text="/", width=5, height=1, font=("arial", 30, "bold"), bd=1, fg="#fff", bg="#17183d", command=lambda: show("/")).place(x=150, y=100) #show the "/"
